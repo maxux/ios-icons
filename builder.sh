@@ -8,8 +8,8 @@ fi
 BASENAME=$(basename "$1" ".png")
 
 echo "[+] building 20pt icons (Notifications)"
-convert -geometry 58x58 "$1" "$BASENAME-29-2x.png"
-convert -geometry 87x87 "$1" "$BASENAME-29-3x.png"
+convert -geometry 40x40 "$1" "$BASENAME-20-2x.png"
+convert -geometry 60x60 "$1" "$BASENAME-20-3x.png"
 
 echo "[+] building 29pt icons (Spotlight)"
 convert -geometry 58x58 "$1" "$BASENAME-29-2x.png"
