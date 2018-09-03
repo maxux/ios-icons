@@ -23,3 +23,5 @@ echo "[+] building 60pt icons (App)"
 convert -geometry 120x120 "$1" "$BASENAME-60-2x.png"
 convert -geometry 180x180 "$1" "$BASENAME-60-3x.png"
 
+echo "[+] building 1024pt icons (App Store)"
+convert -geometry 1024x1024 "$1" "$BASENAME-1024.png"
